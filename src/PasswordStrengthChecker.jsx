@@ -22,7 +22,7 @@ function Psc() {
     function checker() {
         if (getval.current.value.length <= 4) {
             setWW("30%")
-            setBgg("blue")
+            setBgg("black")
         }else if(getval.current.value.length <= 8){
             setWW("70%")
             setBgg("yellow")
